@@ -14,7 +14,7 @@ from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
 
 def train_network():
-    """ Train a Neural Network to generate music """
+    """ Train the Neural Network to generate music """
     notes = get_notes()
 
     # get amount of pitch names
